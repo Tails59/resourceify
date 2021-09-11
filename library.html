@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Catalog - Resourceify</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top clean-navbar resourceify dark-theme">
+        <div class="container"><a class="navbar-brand logo dark-theme" href="/index.html">Resourceify</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse text-right" id="navcol-1"><input class="border rounded border-dark dark-theme" type="search" placeholder="Search... (not implemented)">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item dark-theme"><a class="nav-link dark-theme" href="/index.html">Home</a></li>
+                    <li class="nav-item dark-theme"><a class="nav-link active dark-theme" href="/library.html">Library</a></li>
+                    <li class="nav-item"><a class="nav-link dark-theme" href="/about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link dark-theme" href="/contact-us.html">Contact Us</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page catalog-page">
+        <section class="clean-block clean-catalog dark dark-theme">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Library</h2>
+                    <p class="dark-theme">Browse what we think are the best tools available, whatever your task is.</p>
+                </div>
+                <div class="content dark-theme">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="d-none d-md-block">
+                                <div class="filters">
+                                    <!-- Start: Categories-checklist -->
+                                    <div class="filter-item">
+                                        <h3 class="dark-theme">Categories</h3>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label dark-theme" for="formCheck-1">IDEs</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label dark-theme" for="formCheck-2">Libraries</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label dark-theme" for="formCheck-3">Web Design</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label dark-theme" for="formCheck-4">Modelling</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label dark-theme" for="formCheck-1">SQL/Databases</label></div>
+                                    </div>
+                                    <!-- End: Categories-checklist -->
+                                    <!-- Start: Brands-checklist -->
+                                    <div class="filter-item">
+                                        <h3 class="dark-theme">Brands</h3>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label dark-theme" for="formCheck-5">IntelliJ</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label dark-theme" for="formCheck-6">Microsoft</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label dark-theme" for="formCheck-7">Oracle</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label dark-theme" for="formCheck-5">JetBrains</label></div>
+                                    </div>
+                                    <!-- End: Brands-checklist -->
+                                    <!-- Start: OS-Checklist -->
+                                    <div class="filter-item">
+                                        <h3 class="dark-theme">OS</h3>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label dark-theme" for="formCheck-8">Windows</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label dark-theme" for="formCheck-9">Mac</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label dark-theme" for="formCheck-9">Linux</label></div>
+                                    </div>
+                                    <!-- End: OS-Checklist -->
+                                </div>
+                            </div>
+                            <div class="d-md-none"><a class="btn btn-link d-md-none filter-collapse" data-toggle="collapse" aria-expanded="false" aria-controls="filters" href="#filters" role="button">Filters<i class="icon-arrow-down filter-caret"></i></a>
+                                <div class="collapse"
+                                    id="filters">
+                                    <div class="filters">
+                                        <!-- Start: Categories-checklist -->
+                                        <div class="filter-item">
+                                            <h3 class="dark-theme">Categories</h3>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label dark-theme" for="formCheck-1">IDEs</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label dark-theme" for="formCheck-2">Libraries</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label dark-theme" for="formCheck-3">Web Design</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label dark-theme" for="formCheck-4">Modelling</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label dark-theme" for="formCheck-1">SQL/Databases</label></div>
+                                        </div>
+                                        <!-- End: Categories-checklist -->
+                                        <!-- Start: Brands-checklist -->
+                                        <div class="filter-item">
+                                            <h3 class="dark-theme">Brands</h3>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label dark-theme" for="formCheck-5">IntelliJ</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label dark-theme" for="formCheck-6">Microsoft</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label dark-theme" for="formCheck-7">Oracle</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label dark-theme" for="formCheck-5">JetBrains</label></div>
+                                        </div>
+                                        <!-- End: Brands-checklist -->
+                                        <!-- Start: OS-Checklist -->
+                                        <div class="filter-item">
+                                            <h3 class="dark-theme">OS</h3>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label dark-theme" for="formCheck-8">Windows</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label dark-theme" for="formCheck-9">Mac</label></div>
+                                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label dark-theme" for="formCheck-9">Linux</label></div>
+                                        </div>
+                                        <!-- End: OS-Checklist -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="products">
+                                <div class="row no-gutters dark-theme" style="border-color: rgb(43, 47, 49);border-top-color: rgb(43,;border-right-color: 47,;border-bottom-color: 49);border-left-color: 47,;">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="clean-product-item dark-theme">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/eclipse.png"></a><a href="#"></a></div>
+                                            <div class="text-center product-name"><a class="dark-theme" href="#">Eclipse IDE</a></div>
+                                            <div class="about">
+                                                <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star-half-empty.svg"><img src="/assets/img/star-empty.svg"></div><a class="text-right" href="/showcases/eclipse.html"
+                                                    style="margin-right: -110px;">View</a>
+                                                <div class="price"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="clean-product-item dark-theme">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/mysqlwb.jpeg"></a><a href="#"></a></div>
+                                            <div class="text-center product-name"><a class="dark-theme" href="#">MySQL Workbench</a></div>
+                                            <div class="about">
+                                                <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star-half-empty.svg"><img src="/assets/img/star-empty.svg"></div><a class="text-right" href="/showcases/mysqlwb.html"
+                                                    style="margin-right: -110px;">View</a>
+                                                <div class="price"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 dark-theme">
+                                        <div class="clean-product-item dark-theme" style="border-color: rgb(43, 47, 49);border-top-color: rgb(43,;border-right-color: 47,;border-bottom-color: 49);border-left-color: 47,;">
+                                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/visual%20studio.png" style="height: 180px;width: 337px;"></a><a href="#"></a></div>
+                                            <div class="text-center product-name"><a class="dark-theme" href="#">Visual Studio IDE</a></div>
+                                            <div class="about">
+                                                <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star-half-empty.svg"></div><a class="text-right" style="margin-right: -110px;color: rgb(113,117,122);">View</a>
+                                                <div
+                                                    class="price"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="clean-product-item dark-theme">
+                                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/phpstorm.png"></a><a href="#"></a></div>
+                                        <div class="text-center product-name"><a class="dark-theme" href="#">PHPStorm IDE</a></div>
+                                        <div class="about">
+                                            <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star-half-empty.svg"><img src="/assets/img/star-empty.svg"></div><a class="text-right" style="margin-right: -110px;color: rgb(113,117,122);">View</a>
+                                            <div
+                                                class="price"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="clean-product-item dark-theme">
+                                    <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/photoshop.png"></a><a href="#"></a></div>
+                                    <div class="text-center product-name"><a class="dark-theme" href="#">Adobe Photoshop</a></div>
+                                    <div class="about">
+                                        <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"></div><a class="text-right" style="margin-right: -110px;color: rgb(113,117,122);">View</a>
+                                        <div
+                                            class="price"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="clean-product-item dark-theme">
+                                <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/intellij.png"></a><a href="#"></a></div>
+                                <div class="text-center product-name"><a class="dark-theme" href="#">IntelliJ</a></div>
+                                <div class="about">
+                                    <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star-empty.svg"></div><a class="text-right" style="margin-right: -110px;color: rgb(113,117,122);">View</a>
+                                    <div
+                                        class="price"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="clean-product-item dark-theme">
+                            <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/github.png"></a><a href="#"></a></div>
+                            <div class="text-center product-name"><a class="dark-theme" href="#">Github Student Pack</a></div>
+                            <div class="about">
+                                <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"></div><a class="text-right" style="margin-right: -110px;color: rgb(113,117,122);">View</a>
+                                <div
+                                    class="price"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="clean-product-item dark-theme">
+                        <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/sublime.png"></a><a href="#"></a></div>
+                        <div class="text-center product-name"><a class="dark-theme" href="#">Sublime Text</a></div>
+                        <div class="about">
+                            <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star-half-empty.svg"><img src="/assets/img/star-empty.svg"><img src="/assets/img/star-empty.svg"></div><a class="text-right" style="margin-right: -110px;color: rgb(113,117,122);">View</a>
+                            <div
+                                class="price"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="clean-product-item dark-theme">
+                    <div class="image"><a href="#"><img class="img-fluid d-block mx-auto" src="/assets/img/tech/github%20desktop.png"></a><a href="#"></a></div>
+                    <div class="text-center product-name"><a class="dark-theme" href="#">Github Desktop</a></div>
+                    <div class="about">
+                        <div class="rating"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star.svg"><img src="/assets/img/star-empty.svg"><img src="/assets/img/star-empty.svg"></div><a class="text-right" style="margin-right: -110px;color: rgb(113,117,122);">View</a>
+                        <div
+                            class="price"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <nav>
+                <ul class="pagination">
+                    <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                </ul>
+            </nav>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- Start: Footer Dark -->
+    <footer class="page-footer dark" style="height: 200px;margin-top: 0px;">
+        <div class="container">
+            <div class="row" style="margin-top: -32px;">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a style="color: rgb(88,88,88);">Sign up</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="/contact-us.html">Contact us</a></li>
+                        <li><a style="color: rgb(88,88,88);">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a style="color: rgb(88,88,88);">FAQ</a></li>
+                        <li><a style="color: rgb(88,88,88);">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a style="color: rgb(88,88,88);">Terms of Service</a></li>
+                        <li></li>
+                        <li><a style="color: rgb(88,88,88);">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright" style="margin: 0px;height: 65px;">
+            <p style="margin-top: 17px;">© 2020 Resourceify.co.uk - Made by&nbsp;2710761, University of Stirling</p>
+        </div>
+    </footer>
+    <!-- End: Footer Dark -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="/assets/js/script.min.js"></script>
+</body>
+
+</html>
